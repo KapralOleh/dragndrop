@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Decade";
+  src: url(../fonts/Decade.ttf);
+}
+body {
+  background: #757575;
+}
+
+* {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+ 
+}
+h1 {
+  color: rgb(199, 255, 102);
+  font-family: "Decade";
+  text-transform: uppercase;
+}
+h2 {
+  font-family: "Decade";
+  color: aqua;
+  text-align: center;
+}
+.he2.wi2 > h2 {
+  margin-top: 25%;
+}
+.box {
+  position: relative;
+  width: 45%;
+  margin-left: 2.5%;
+  height: 100px;
+  margin-top: 20px;
+  float: left;
+  color: aqua;
+  background: #E74C3C;
+  box-shadow:inset 0 -5px 0px rgba(0,0,0,0.1),inset 5px 0px 0px rgba(0,0,0,0.1),;
+  cursor: pointer;
+  overflow: hidden;
+}
+.he2 {
+  height: 220px;
+}
+.he2 h2 {
+  margin-top: 50%;
+}
+.wi2 {
+  width: 93%;
+}
+.wi2 h2 {
+  margin-top: 10%;
+}
+.col-md-4 {
+  padding: 0px;
+}
+.row img, .row p {
+  margin: 15px;
+}
+.row img {
+  float: left;
+}
+p {
+  font-weight: bold;
+  color: white;
+}
+
